@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  background: linear-gradient(to right, #df4875, #bbedf7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,36 +9,76 @@ body {
 }
 
 .weather-container {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(239, 223, 239, 0.9);
   padding: 30px;
   border-radius: 10px;
   text-align: center;
   width: 300px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(168, 131, 131, 0.2);
 }
 
 input {
   padding: 10px;
   width: 80%;
   margin-bottom: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  border-radius: 50px;
+  border: 3px solid #7b7c7e;
 }
 
 button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #4e89ff;
+  background-color: #7b7c7e;
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #3b6fd1;
+  background-color: #ee95c7;
 }
 
 .weather-result {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+/* ========================= */
+/* Added City Info Section   */
+/* ========================= */
+
+.city-info {
+  margin-top: 20px;
+}
+
+.info-box {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.info-box h3 {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.info-box ul {
+  padding-left: 18px;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* ========================= */
+/* Date & Time (Last line)   */
+/* ========================= */
+
+.date-day {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  text-align: center;
 }
